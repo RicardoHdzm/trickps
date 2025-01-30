@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>California</title>
+  <!-- Enlace a Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Gabarito:wght@400&display=swap" rel="stylesheet">
+  <!-- Enlace a Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!-- Enlace a la librería AOS (Animate on Scroll) -->
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav id="Navbar" class="navbar navbar-expand-lg fixed-top justify-content-between px-5">
+    <a class="navbar-brand px-4" href="#" aria-label="Navigate to the homepage">
+      <h1>T<span>RICK</span>PS<span>.</span></h1>
+    </a>
+    <button class="navbar-toggler ms-auto custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation menu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="mr-sm-2">
+      <div class="collapse navbar-collapse mx-auto" id="navbarSupportedContent">
+        <ul class="navbar-nav mt-lg-0">
+          <li class="nav-item px-4 py-3"><a class="nav-link" href="#vuelos" aria-label="Navigate to menu section">Vuelos</a></li>
+          <li class="nav-item px-4 py-3"><a class="nav-link" href="#parques" aria-label="Navigate to visit us section">Parques</a></li>
+          <li class="nav-item px-4 py-3"><a class="nav-link" href="#hospedaje" aria-label="Navigate to contact section">Hospedaje</a></li>
+          <li class="nav-item px-4 py-3"><a class="nav-link" href="#transporte" aria-label="Navigate to contact section">Transporte</a></li>
+          <li class="nav-item px-4 py-3"><a class="nav-link" href="#comida" aria-label="Navigate to contact section">Comida</a></li>
+          <li class="nav-item px-4 py-3"><a class="nav-link" href="#sitios" aria-label="Navigate to contact section">Sitios</a></li>
+          <li class="nav-item px-4 py-3"><a class="nav-link" href="#total" aria-label="Navigate to contact section">Total</a></li>
+          <li class="nav-item px-4 py-3"><a class="nav-link" href="#ahorro" aria-label="Navigate to contact section">Ahorro</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Sección Inicio -->
+  <section id="home" class="py-5">
+    <div class="container text-center">
+      <h1></span>PRESUPUESTO INDIVIDUAL CALIFORNIA</h1>
+      <h2><span>26 DE DICIEMBRE - 2 DE ENERO</span></h2>
+    </div>
+  </section>
+
+  <!-- Sección Vuelos -->
+  <section id="vuelos" class="py-5">
+    <div class="container text-center">
+      <h2>VUELOS Y CBX (COSTO POR PERSONA)</h2>
+      <table class="table my-5">
+        <thead>
+          <tr>
+            <th>Concepto</th>
+            <th>Costo por Persona</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Vuelo redondo Culiacán - Tijuana</td>
+            <td>$3,500 - $5,500 MXN ($200 - $315 USD)</td>
+          </tr>
+          <tr>
+            <td>Cruce CBX (ida y vuelta)</td>
+            <td>~$40 USD</td>
+          </tr>
+          <tr>
+            <td><span>Total estimado por persona</span></td>
+            <td><span>$240 - $355 USD</span></td>
+          </tr>
+        </tbody>
+      </table>
+      <button class="btn">Volaris</button>
+      <button class="btn">VivaAerobus</button>
+      <button class="btn">Aeroméxico</button>
+    </div>
+  </section>
+
+  <!-- Sección 2 -->
+  <section id="parques" class="py-5">
+    <div class="container text-center">
+      <h2>ENTRADAS A PARQUES Y EVENTOS (COSTO POR PERSONA)</h2>
+      <table class="table my-5">
+        <thead>
+          <tr>
+            <th>Actividad</th>
+            <th>Costo por Persona</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Disneyland (1 día, 1 parque)</td>
+            <td>~$179 USD</td>
+          </tr>
+          <tr>
+            <td>Universal Studios Hollywood</td>
+            <td>~$149 USD</td>
+          </tr>
+          <tr>
+            <td>Knott’s Berry Farm</td>
+            <td>~$80 USD</td>
+          </tr>
+          <tr>
+            <td>Juego de la NBA</td>
+            <td>~$50 - $200 USD</td>
+          </tr>
+          <tr>
+            <td><span>Total</span></td>
+            <td><span>~$508 USD</span></td>
+          </tr>
+        </tbody>
+      </table>
+      <button class="btn">Disneyland</button>
+      <button class="btn">Universal Studios</button>
+      <button class="btn">Knott's Berry Farm</button>
+    </div>
+  </section>
+
+  <!-- Sección 3 -->
+  <section id="hospedaje" class="py-5">
+    <div class="container">
+      <h2 class="text-center">HOSPEDAJE (COSTO POR PERSONA)</h2>
+      <table class="table my-5">
+        <thead>
+          <tr>
+            <th>Opción</th>
+            <th>Costo por Persona (7 noches)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Airnbnb</td>
+            <td>~$233 - $490 USD</td>
+          </tr>
+          <tr>
+            <td>Hotel (Holiday Inn o similar)</td>
+            <td>~$315 - $585 USD</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- Sección 4 -->
+  <section id="transporte" class="py-5">
+    <div class="container">
+      <h2 class="text-center">TRANSPORTE (COSTO POR PERSONA)</h2>
+      <h3 class="text-center my-5">Opción 1: Renta de Autos (2-3 vans para 12-15 personas)</h3>
+      <table class="table my-5">
+        <thead>
+          <tr>
+            <th>Concepto</th>
+            <th>Costo por Persona</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Costo por van (7 días)</td>
+            <td>~$700 USD por van</td>
+          </tr>
+          <tr>
+            <td>Gasolina</td>
+            <td>~$500 - $600 USD</td>
+          </tr>
+          <tr>
+            <td>Transporte San Diego - Anaheim</td>
+            <td>~$100 - $150 USD por van</td>
+          </tr>
+          <tr>
+            <td><span>Total estimado por persona</span></td>
+            <td><span>~$147 - $280 USD</span></td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3 class="text-center my-5">Opción 2: Uber/Lyft</h3>
+      <table class="table my-5">
+        <thead>
+          <tr>
+            <th>Concepto</th>
+            <th>Costo por Persona</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>San Diego - Anaheim (ida y vuelta)</td>
+            <td>~$240 - $360 USD</td>
+          </tr>
+          <tr>
+            <td>Viajes dentro de Anaheim/LA</td>
+            <td>~$40 - $80 USD por día</td>
+          </tr>
+          <tr>
+            <td><span>Total estimado por persona</span></td>
+            <td><span>$200 - $380 USD</span></td>
+          </tr>
+        </tbody>
+      </table>
+
+    </div>
+  </section>
+
+  <!-- Sección 5 -->
+  <section id="comida" class="py-5">
+    <div class="container">
+      <h2 class="text-center">COMIDA (COSTO POR PERSONA)</h2>
+      <table class="table my-5">
+        <thead>
+          <tr>
+            <th>Concepto</th>
+            <th>Costo por Persona</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Comida en parques (1-2 por día)</td>
+            <td>~$20 - $30 USD por comida</td>
+          </tr>
+          <tr>
+            <td>Restaurantes económicos</td>
+            <td>~$15 - $20 USD por comida</td>
+          </tr>
+          <tr>
+            <td><span>Total estimado por persona</span></td>
+            <td><span>$450 - $700 USD</span></td>
+          </tr>
+          <tr>
+            <td><span>Si comen mayormente en restaurantes</span></td>
+            <td><span>$650 - $900 USD</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- Sección 5 -->
+  <section id="sitios" class="py-5">
+    <div class="container">
+      <h2 class="text-center">SITIOS DE INTERÉS Y COMPRAS</h2>
+      <ul class="my-5"><h3>Cerca de Anaheim:</h3>
+        <li><span>Downtown Disney:</span> Zona de restaurantes y tiendas temáticas sin necesidad de entrada al parque.</li>
+        <li><span>Anaheim GardenWalk:</span> Centro comercial con tiendas, restaurantes y entretenimiento.</li>
+        <li><span>Buena Park Downtown:</span> Mall con tiendas y opciones de comida cerca de Knott’s Berry Farm.</li>
+        <li><span>The Outlets at Orange:</span> Centro comercial con descuentos en marcas reconocidas.</li>
+        <li><span>Anaheim Packing District:</span> Mercado gastronómico popular con una gran variedad de opciones para comer.</li>
+        <li><span>Muzeo Museum and Cultural Center:</span> Museo en Anaheim con exposiciones temporales.</li>
+      </ul>
+
+      <ul class="my-5"><h3>Cerca de Universal Studios Hollywood:</h3>
+        <li><span>Universal CityWalk:</span> Área de entretenimiento con tiendas, restaurantes y espectáculos en vivo.</li>
+        <li><span>Hollywood Walk of Fame:</span> Paseo icónico con estrellas de celebridades.</li>
+        <li><span>Griffith Observatory:</span> Vista panorámica de Los Ángeles y el famoso letrero de Hollywood.</li>
+      </ul>
+
+      <ul class="my-5"><h3>Sitios de Interés y Malls en San Diego:</h3>
+        <li><span>Balboa Park:</span> Gran parque cultural con museos, jardines y el famoso Zoológico de San Diego.</li>
+        <li><span>Malls:</span> Fashion Valley Mall, Westfield UTC, Las Americas Premium Outlets, Seaport Village.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Sección 5 -->
+  <section id="total" class="py-5">
+    <div class="container">
+      <h2 class="text-center">PRESUPUESTO TOTAL POR PERSONA (7 NOCHES, 10-15 PERSONAS)</h2>
+      <div class="table-responsive">
+        <table class="table my-5">
+          <thead>
+            <tr>
+              <th>Concepto</th>
+              <th>Costo por Persona (Airbnb + Auto)</th>
+              <th>Costo por Persona (Hotel + Auto)</th>
+              <th>Costo por Persona (Airbnb + Uber/Lyft)</th>
+              <th>Costo por Persona (Hotel + Uber/Lyft)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Vuelos y CBX</td>
+              <td>~$240 - $355 USD</td>
+              <td>~$240 - $355 USD</td>
+              <td>~$240 - $355 USD</td>
+              <td>~$240 - $355 USD</td>
+            </tr>
+            <tr>
+              <td>Entradas a parques y NBA</td>
+              <td>~$408 - $508 USD</td>
+              <td>~$408 - $508 USD</td>
+              <td>~$408 - $508 USD</td>
+              <td>~$408 - $508 USD</td>
+            </tr>
+            <tr>
+              <td>Hospedaje</td>
+              <td>~$233 - $490 USD</td>
+              <td>~$315 - $585 USD</td>
+              <td>~$233 - $490 USD</td>
+              <td>~$315 - $585 USD</td>
+            </tr>
+            <tr>
+              <td>Transporte</td>
+              <td>~$147 - $280 USD</td>
+              <td>~$147 - $280 USD</td>
+              <td>~$200 - $380 USD</td>
+              <td>~$200 - $380 USD</td>
+            </tr>
+            <tr>
+              <td>Comida</td>
+              <td>~$450 - $700 USD</td>
+              <td>~$450 - $700 USD</td>
+              <td>~$450 - $700 USD</td>
+              <td>~$450 - $700 USD</td>
+            </tr>
+            <tr>
+              <td><span>Total estimado</td>
+                <td><span>$1,478 - $2,833 USD</span></td>
+                <td><span>$1,710 - $2,913 USD</span></td>
+                <td><span>$1,531 - $2,943 USD</span></td>
+                <td><span>$1,713 - $3,073 USD</span></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección 5 -->
+    <section id="ahorro" class="py-5">
+      <div class="container">
+        <h2 class="text-center">RECOMENDACIÓN DE AHORRO MENSUAL</h2>
+        <p class="my-5">Para facilitar el ahorro, divide el total estimado por el número de meses restantes hasta tu viaje (11 meses desde febrero hasta diciembre).</p>
+        <table class="table my-5">
+          <thead>
+            <tr>
+              <th>Total estimado por persona</th>
+              <th>Ahorro mensual recomendado (11 meses)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Total estimado más bajo</td>
+              <td>$1,478 ÷ 11 meses = <span>$134.36 USD</span> por mes</td>
+            </tr>
+            <tr>
+              <td>Total estimado más alto</td>
+              <td>$3,073 ÷ 11 meses = <span>$279.36 USD</span> por mes</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <ul class="my-5"><h3>CONSEJOS PARA FACILITAR EL AHORRO:</h3>
+          <li><span>Automatiza tus ahorros: </span>Configura transferencias automáticas a una cuenta de ahorros cada mes para no olvidarte.</li>
+          <li><span>Gastos adicionales:</span>Si te queda dinero extra después de cubrir tus necesidades, puedes sumarlo al ahorro mensual.</li>
+          <li><span>Revisa promociones:</span>   Aprovecha descuentos de vuelos, parques y hospedaje que puedan ayudarte a reducir costos.</li>
+          <li><span>Ajusta tu presupuesto:</span>  Si prefieres un viaje más económico, elige opciones de hospedaje o transporte más baratos.</li>
+
+        </ul>
+
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer" class="text-center">
+      TRICKPS &copy; 2025<br>@RicardoHdzm
+    </footer>
+
+    <!-- Enlace a Bootstrap 5 JS y Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous" defer></script>
+
+    <!-- Enlace a la librería AOS JS -->
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <!-- Inicialización de AOS -->
+    <script>
+      AOS.init();
+    </script>
+
+    <script>
+  // Lista de los IDs de las secciones que quieres desplazar
+      const sections = ['home', 'vuelos', 'parques', 'hospedaje', 'transporte', 'comida', 'sitios', 'total', 'ahorro', 'footer'];
+
+  let currentSection = 0; // Empezamos en la primera sección
+
+  function scrollPage(event) {
+    // Si la pantalla es menor a 768px (móviles), desactivar el desplazamiento automático
+    if (window.innerWidth < 1024) return;
+
+    event.preventDefault(); // Prevenir el scroll normal en pantallas grandes
+
+    // Determinar la dirección del desplazamiento (hacia abajo o arriba)
+    if (event.deltaY > 0) {
+      if (currentSection < sections.length - 1) {
+        currentSection++;
+      }
+    } else {
+      if (currentSection > 0) {
+        currentSection--;
+      }
+    }
+
+    // Desplazar la página hacia el siguiente o anterior ID
+    const nextSection = document.getElementById(sections[currentSection]);
+    nextSection.scrollIntoView({ behavior: 'smooth' });
+  }
+
+  // Escuchar el evento de la rueda del ratón solo en pantallas grandes
+  window.addEventListener('wheel', scrollPage);
+</script>
+
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const sections = document.querySelectorAll("section"); // Todas las secciones
+    const navLinks = document.querySelectorAll(".navbar-nav .nav-link"); // Links del navbar
+
+    function changeActiveNav() {
+      let scrollPosition = window.scrollY + 100; // Ajuste para detectar la sección antes
+
+      sections.forEach((section) => {
+        const top = section.offsetTop;
+        const height = section.offsetHeight;
+        const id = section.getAttribute("id");
+
+        if (scrollPosition >= top && scrollPosition < top + height) {
+          navLinks.forEach((link) => {
+            link.classList.remove("active");
+            if (link.getAttribute("href") === `#${id}`) {
+              link.classList.add("active");
+            }
+          });
+        }
+      });
+    }
+
+    window.addEventListener("scroll", changeActiveNav);
+  });
+</script>
+
+
+</body>
+</html>
