@@ -16,6 +16,11 @@ body {
   font-family: "Gabarito", serif;
 }
 
+::selection {
+  color: #212121;
+  background: #03A9F4;
+}
+
 /* Estilo para las secciones */
 section {
   height: 100vh; /* Cada sección ocupa el 100% de la altura de la pantalla */
@@ -28,7 +33,7 @@ section {
 
 /* Estilo para el texto de los títulos en cada sección */
 section h2 {
-  font-size: 2.5rem;
+  font-size: 3rem;
   font-weight: bold;
   color: #fff;
 }
@@ -42,7 +47,7 @@ section h3 {
 /* Estilo para los párrafos */
 
 section h1{
-  font-size: 5rem;
+  font-size: 7rem;
   font-weight: bold;
   color: #fff;
 }
@@ -53,8 +58,8 @@ section li{
 }
 
 span{
-  color: #f7a308;
-  font-weight: bold;
+  color: #03A9F4;
+  font-weight: bolder;
 }
 
 .navbar a{
@@ -63,14 +68,14 @@ span{
 }
 
 .navbar h1{
-  font-size: 2.5rem;
+  font-size: 3rem;
   margin: 0px;
   font-weight: bolder;
-  letter-spacing: -2.5px;
+  letter-spacing: -3.5px;
 }
 
 .navbar span{
-  color: #f7a308;
+  color: #03A9F4;
 }
 
 a:hover{
@@ -130,7 +135,6 @@ section p {
   font-size: 1rem;
   font-weight: bold;
   border: solid #383838;
-  border-width: 4px;
   border-radius: 0;
   color: #fff;
   padding: 10px;
@@ -141,14 +145,20 @@ section p {
 }
 
 .btn:hover{
-  background-color: #f7a308;
+  background-color: #03A9F4;
   font-size: 1rem;
   color: #fff;
   font-weight: bold;
-  border: solid #f7a308;
+  border: solid #03A9F4;
   border-radius: 0;
   transition: 0.5s;
   width: 300px;
+}
+
+.btn:focus, 
+.btn:active {
+  box-shadow: none !important;
+  outline: none !important;
 }
 
 
@@ -180,15 +190,15 @@ footer {
 
 .nav-link:hover {
   text-decoration: none;
-  color: #f7a308;
+  color: #03A9F4;
 }
 
 .nav-link:focus{
-  color: #f7a308;
+  color: #03A9F4;
 }
 
 .navbar-nav .nav-link.active {
-  color: #f7a308 !important; /* Color del enlace activo */
+  color: #03A9F4 !important; /* Color del enlace activo */
   font-weight: bold; /* Opcional: para resaltar más el enlace */
 }
 
@@ -264,7 +274,7 @@ body{
   }
 
   section h2{
-    font-size: 1.2rem;
+    font-size: 1.5rem;
   }
 
   section h3{
@@ -301,7 +311,7 @@ body{
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #f7a308;
+  background: #03A9F4;
 }
 
 ::-webkit-scrollbar-thumb:hover {
