@@ -259,7 +259,7 @@ footer {
   transform: translateX(0) scale(1);
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 992px) {
 
 
   body{
@@ -307,6 +307,8 @@ footer {
   }
 }
 
+}
+
 
 ::-webkit-scrollbar {
   width: 8px;
@@ -323,3 +325,8 @@ footer {
 ::-webkit-scrollbar-thumb:hover {
   background: #fff;
 }
+
+@media (max-width: 1400px) { /* Se aplica solo cuando el menú está colapsado */
+  .navbar-nav {
+    text-align: center;
+  }
