@@ -18,34 +18,36 @@
 <body>
 
   <!-- Navbar -->
-  <nav id="Navbar" class="navbar navbar-expand-lg fixed-top justify-content-between px-5">
-    <a class="navbar-brand px-4" href="#" aria-label="Navigate to the homepage">
-      <h1>T<span>RICK</span>PS<span> .</span></h1>
-    </a>
-    <button class="navbar-toggler ms-auto custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation menu">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="mr-sm-2">
-      <div class="collapse navbar-collapse mx-auto" id="navbarSupportedContent">
-        <ul class="navbar-nav mt-lg-0">
-          <li class="nav-item px-4 py-3"><a class="nav-link" href="#vuelos" aria-label="Navigate to menu section">Vuelos</a></li>
-          <li class="nav-item px-4 py-3"><a class="nav-link" href="#parques" aria-label="Navigate to visit us section">Parques</a></li>
-          <li class="nav-item px-4 py-3"><a class="nav-link" href="#hospedaje" aria-label="Navigate to contact section">Hospedaje</a></li>
-          <li class="nav-item px-4 py-3"><a class="nav-link" href="#transporte" aria-label="Navigate to contact section">Transporte</a></li>
-          <li class="nav-item px-4 py-3"><a class="nav-link" href="#comida" aria-label="Navigate to contact section">Comida</a></li>
-          <li class="nav-item px-4 py-3"><a class="nav-link" href="#sitios" aria-label="Navigate to contact section">Sitios</a></li>
-          <li class="nav-item px-4 py-3"><a class="nav-link" href="#total" aria-label="Navigate to contact section">Total</a></li>
-          <li class="nav-item px-4 py-3"><a class="nav-link" href="#ahorro" aria-label="Navigate to contact section">Ahorro</a></li>
-        </ul>
-      </div>
-    </div>
-  </nav>
+  <nav id="Navbar" class="navbar navbar-expand-lg sticky-top justify-content-between px-5">
+  <a class="navbar-brand px-4" href="#home" aria-label="Navigate to the homepage">
+    <h1>T<span>RICK</span>PS<span> .</span></h1>
+  </a>
+  <button class="navbar-toggler ms-auto custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation menu">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+    <ul class="navbar-nav ms-auto">
+      <li class="nav-item"><a class="nav-link px-4 py-3" href="#vuelos" aria-label="Navigate to Vuelos section">Vuelos</a></li>
+      <li class="nav-item"><a class="nav-link px-4 py-3" href="#actividades" aria-label="Navigate to Actividades section">Actividades</a></li>
+      <li class="nav-item"><a class="nav-link px-4 py-3" href="#hospedaje" aria-label="Navigate to Hospedaje section">Hospedaje</a></li>
+      <li class="nav-item"><a class="nav-link px-4 py-3" href="#transporte" aria-label="Navigate to Transporte section">Transporte</a></li>
+      <li class="nav-item"><a class="nav-link px-4 py-3" href="#comida" aria-label="Navigate to Comida section">Comida</a></li>
+      <li class="nav-item"><a class="nav-link px-4 py-3" href="#turismo" aria-label="Navigate to Turismo section">Turismo</a></li>
+      <li class="nav-item"><a class="nav-link px-4 py-3" href="#total" aria-label="Navigate to Total section">Total</a></li>
+      <li class="nav-item"><a class="nav-link px-4 py-3" href="#ahorro" aria-label="Navigate to Ahorro section">Ahorro</a></li>
+      <li class="nav-item"><a class="nav-link px-4 py-3" href="#itinerario" aria-label="Navigate to Itinerario section">Itinerario</a></li>
+    </ul>
+  </div>
+</nav>
+
 
   <!-- Sección Inicio -->
   <section id="home" class="py-5">
     <div class="container text-center">
-      <h1></span>CALIFORNIA</h1>
-      <h2><span>26 DE DICIEMBRE - 2 DE ENERO</span></h2>
+      <h3><span>26 DE DICIEMBRE - 2 DE ENERO</span></h3>
+      <h1>CALIFORNIA<span>2025</span></h1>
+      <h2 id="demo"></h2>
+      <a href="#itinerario"><button class="btn">Ver Itinerario</button></a>
     </div>
   </section>
 
@@ -82,7 +84,7 @@
   </section>
 
   <!-- Sección 2 -->
-  <section id="parques" class="py-5">
+  <section id="actividades" class="py-5">
     <div class="container text-center">
       <h2>ENTRADAS A PARQUES Y EVENTOS</h2>
       <table class="table my-5">
@@ -155,7 +157,7 @@
       <div class="row h-100 my-auto">
         <div class="col-lg-6 col-12">
           <h3 class="text-center my-5">Opción 1: Renta de Autos</h3>
-          <table class="table my-5">
+          <table class="table">
             <thead>
               <tr>
                 <th>Concepto</th>
@@ -184,7 +186,7 @@
         </div>
         <div class="col-lg-6 col-12">
           <h3 class="text-center my-5">Opción 2: Uber/Lyft</h3>
-          <table class="table my-5">
+          <table class="table">
             <thead>
               <tr>
                 <th>Concepto</th>
@@ -246,7 +248,7 @@
   </section>
 
   <!-- Sección 5 -->
-  <section id="sitios" class="py-5">
+  <section id="turismo" class="py-5">
     <div class="container">
       <h2 class="text-center">SITIOS DE INTERÉS Y COMPRAS</h2>
       <ul class="my-5"><h3>Cerca de Anaheim:</h3>
@@ -370,6 +372,12 @@
       </div>
     </section>
 
+    <section id="itinerario" class="text-center">
+      <div class="container my-5">
+        <h2>PROXIMAMENTE</h2>
+      </div>
+    </section>
+
     <!-- Footer -->
     <section id="footer" class="text-center">
       <div class="container my-5">
@@ -389,7 +397,7 @@
 
     <script>
   // Lista de los IDs de las secciones que quieres desplazar
-      const sections = ['home', 'vuelos', 'parques', 'hospedaje', 'transporte', 'comida', 'sitios', 'total', 'ahorro', 'footer'];
+      const sections = ['home', 'vuelos', 'actividades', 'hospedaje', 'transporte', 'comida', 'turismo', 'total', 'ahorro', 'itinerario', 'footer'];
 
   let currentSection = 0; // Empezamos en la primera sección
 
@@ -446,6 +454,37 @@
 
     window.addEventListener("scroll", changeActiveNav);
   });
+</script>
+
+<script>
+// Set the date we're counting down to
+  var countDownDate = new Date("Dec 26, 2025 00:00:00").getTime();
+
+// Update the count down every 1 second
+  var x = setInterval(function() {
+
+  // Get today's date and time
+    var now = new Date().getTime();
+
+  // Find the distance between now and the count down date
+    var distance = countDownDate - now;
+
+  // Time calculations for days, hours, minutes and seconds
+    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+  // Display the result in the element with id="demo"
+    document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+    + minutes + "m " + seconds + "s ";
+
+  // If the count down is finished, write some text
+    if (distance < 0) {
+      clearInterval(x);
+      document.getElementById("demo").innerHTML = "EXPIRED";
+    }
+  }, 1000);
 </script>
 
 
