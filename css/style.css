@@ -295,7 +295,7 @@ body{
   }
 
   section{
-    height: 100vh;
+    height: fit-content;
     margin-bottom: 10rem;
   }
 }
