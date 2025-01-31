@@ -71,6 +71,7 @@ span{
   margin: 0px;
   font-weight: bolder;
   letter-spacing: -3.5px;
+  text-transform: lowercase!important;
 }
 
 .navbar span{
@@ -171,14 +172,14 @@ section p {
 }
 
 .sticky-col {
-    position: sticky;
-    left: 0;
-    z-index: 2;
+  position: sticky;
+  left: 0;
+  z-index: 2;
 }
 
 thead th {
-    position: sticky;
-    top: 0;
+  position: sticky;
+  top: 0;
 }
 
 
