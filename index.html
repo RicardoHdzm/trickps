@@ -33,26 +33,26 @@
 <body>
 
   <nav id="Navbar" class="navbar navbar-expand-xxl fixed-top justify-content-between px-5">
-  <a class="navbar-brand" href="#top" aria-label="Navigate to the homepage">
-    <h1>T<span>RICK</span>PS<span> .</span></h1>
-  </a>
-  <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation menu">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse ms-auto" id="navbarSupportedContent">
-    <ul class="navbar-nav ms-auto">
-      <li class="nav-item"><a class="nav-link px-4 py-3" href="#vuelos" aria-label="Navigate to Vuelos section">Vuelos</a></li>
-      <li class="nav-item"><a class="nav-link px-4 py-3" href="#actividades" aria-label="Navigate to Actividades section">Actividades</a></li>
-      <li class="nav-item"><a class="nav-link px-4 py-3" href="#hospedaje" aria-label="Navigate to Hospedaje section">Hospedaje</a></li>
-      <li class="nav-item"><a class="nav-link px-4 py-3" href="#transporte" aria-label="Navigate to Transporte section">Transporte</a></li>
-      <li class="nav-item"><a class="nav-link px-4 py-3" href="#comida" aria-label="Navigate to Comida section">Comida</a></li>
-      <li class="nav-item"><a class="nav-link px-4 py-3" href="#turismo" aria-label="Navigate to Turismo section">Turismo</a></li>
-      <li class="nav-item"><a class="nav-link px-4 py-3" href="#total" aria-label="Navigate to Total section">Total</a></li>
-      <li class="nav-item"><a class="nav-link px-4 py-3" href="#ahorro" aria-label="Navigate to Ahorro section">Ahorro</a></li>
-      <li class="nav-item"><a class="nav-link px-4 py-3" href="#itinerario" aria-label="Navigate to Itinerario section">Itinerario</a></li>
-    </ul>
-  </div>
-</nav>
+    <a class="navbar-brand" href="#top" aria-label="Navigate to the homepage">
+      <h1>T<span>RICK</span>PS<span> .</span></h1>
+    </a>
+    <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation menu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse ms-auto" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link px-4 py-3" href="#vuelos" aria-label="Navigate to Vuelos section">Vuelos</a></li>
+        <li class="nav-item"><a class="nav-link px-4 py-3" href="#actividades" aria-label="Navigate to Actividades section">Actividades</a></li>
+        <li class="nav-item"><a class="nav-link px-4 py-3" href="#hospedaje" aria-label="Navigate to Hospedaje section">Hospedaje</a></li>
+        <li class="nav-item"><a class="nav-link px-4 py-3" href="#transporte" aria-label="Navigate to Transporte section">Transporte</a></li>
+        <li class="nav-item"><a class="nav-link px-4 py-3" href="#comida" aria-label="Navigate to Comida section">Comida</a></li>
+        <li class="nav-item"><a class="nav-link px-4 py-3" href="#turismo" aria-label="Navigate to Turismo section">Turismo</a></li>
+        <li class="nav-item"><a class="nav-link px-4 py-3" href="#total" aria-label="Navigate to Total section">Total</a></li>
+        <li class="nav-item"><a class="nav-link px-4 py-3" href="#ahorro" aria-label="Navigate to Ahorro section">Ahorro</a></li>
+        <li class="nav-item"><a class="nav-link px-4 py-3" href="#itinerario" aria-label="Navigate to Itinerario section">Itinerario</a></li>
+      </ul>
+    </div>
+  </nav>
 
   <!-- Sección Inicio -->
   <section id="home" class="my-5">
@@ -382,9 +382,140 @@
 
     <section id="itinerario" class="text-center">
       <div class="container my-5">
-        <h2>PROXIMAMENTE</h2>
+        <div class="table-responsive">
+          <table class="table my-5">
+            <thead>
+              <tr class="align-middle">
+                <th colspan="9">ITINERARIO<br>(No es real ando simulando horarios)</th>
+              </tr>
+            </thead>
+            <tbody class="align-middle small-font">
+              <tr>
+                <td class="time sticky-col">Hora/Fecha</td>
+                <td class="time">Vie 26</td>
+                <td class="time">Sab 27</td>
+                <td class="time">Dom 28</td>
+                <td class="time">Lun 29</td>
+                <td class="time">Mar 30</td>
+                <td class="time">Mie 31</td>
+                <td class="time">Jue 1</td>
+                <td class="time">Vie 2</td> 
+              </tr>
+              <tr>
+                <td class="time sticky-col">7:00 AM</td>
+                <td rowspan="4" class="t-vuelos">Vuelo<br>CLN - TJ</td>
+                <td class="t-free" rowspan="2">Libre</td>
+                <td class="t-inters">Alistar</td>
+                <td class="t-free" rowspan="2">Libre</td>
+                <td class="t-inters">Alistar</td>
+                <td class="t-free" rowspan="2">Libre</td>
+                <td class="t-free" rowspan="2">Libre</td>
+                <td class="t-free" rowspan="2">Libre</td>
+              </tr>
+              <tr>
+                <td class="time sticky-col">8:00 AM</td>
+                <td rowspan="14" class="t-acts">Disney/Universal</td>
+                <td rowspan="14" class="t-acts">Disney/Universal</td>
+              </tr>
+              <tr>
+                <td class="time sticky-col">9:00 AM</td>
+                <td class="t-inters">Alistar</td>
+                <td class="t-inters">Alistar</td>
+                <td class="t-inters">Alistar</td>
+                <td class="t-inters">Alistar</td>
+                <td class="t-inters">Alistar</td>
+              </tr>
+              <tr>
+                <td class="time sticky-col">10:00 AM</td>
+                <td class="t-comidas">Desayuno</td>
+                <td class="t-comidas">Desayuno</td>
+                <td class="t-comidas">Desayuno</td>
+                <td class="t-comidas">Desayuno</td>
+                <td class="t-comidas">Desayuno</td>
+              </tr>
+              <tr>
+                <td class="time sticky-col">11:00 AM</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td class="time sticky-col">12:00 PM</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td class="time sticky-col">1:00 PM</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td class="time sticky-col">2:00 PM</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td class="time sticky-col">3:00 PM</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td class="time sticky-col">4:00 PM</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td><td rowspan="4" class="t-vuelos">Vuelo<br>TJ - CLN</td>
+              </tr>
+              <tr>
+                <td class="time sticky-col">5:00 PM</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td class="time sticky-col">6:00 PM</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td class="time sticky-col">7:00 PM</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
       </div>
     </section>
+
 
     <!-- Footer -->
     <section id="footer" class="text-center">

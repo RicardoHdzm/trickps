@@ -115,6 +115,9 @@ section p {
   text-align: center;
 }
 
+.time{
+  background-color: #383838!important;
+}
 /* Estilo para las celdas de la tabla */
 .table td {
   padding: 12px;
@@ -127,6 +130,57 @@ section p {
 .table thead {
   background-color: #007bff;
 }
+
+/* Azul */
+.t-acts{
+  background-color: rgba(3, 169, 244, .2)!important;
+}
+
+/* Verde */
+.t-otros{
+  background-color: rgba(3, 244, 11, .2)!important;
+}
+
+/* Morado */
+.t-inters{
+  background-color: rgba(91, 3, 244, .2)!important;
+}
+
+/* Rosa */
+.t-vuelos{
+  background-color: rgba(244, 3, 79, .2)!important;
+}
+
+/* Azul */
+.t-compras{
+  background-color: rgba(244, 3, 79, .2)!important;
+}
+
+/* Amarillo */
+.t-comidas{
+  background-color: rgba(244, 164, 3, .2)!important;
+}
+
+/* Negro */
+.t-free{
+  background-color: rgba(0, 0, 0, .2)!important;
+}
+
+.small-font{
+  font-size: .8rem;
+}
+
+.sticky-col {
+    position: sticky;
+    left: 0;
+    z-index: 2;
+}
+
+thead th {
+    position: sticky;
+    top: 0;
+}
+
 
 
 .btn{
