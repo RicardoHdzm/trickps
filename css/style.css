@@ -37,6 +37,11 @@ section h2 {
   color: #fff;
 }
 
+h2 span{
+  font-size: 4rem;
+}
+
+
 section h3 {
   font-size: 1.5rem;
   font-weight: bold;
@@ -71,7 +76,6 @@ span{
   margin: 0px;
   font-weight: bolder;
   letter-spacing: -3.5px;
-  text-transform: lowercase!important;
 }
 
 .navbar span{
@@ -125,11 +129,6 @@ section p {
   background-color: transparent;
   border-color: #383838;
   border-width: 2px;
-}
-
-/* Estilo para las filas de encabezado */
-.table thead {
-  background-color: #007bff;
 }
 
 /* Azul */
@@ -330,6 +329,10 @@ footer {
 
   section h2{
     font-size: 1.5rem;
+  }
+
+  h2 span{
+    font-size: 2.5rem;
   }
 
   section h3{
