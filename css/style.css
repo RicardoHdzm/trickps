@@ -57,6 +57,10 @@ video {
   z-index: 1;
 }
 
+.span2{
+  color: #fff;
+}
+
 
 
 /* Estilo para el texto de los títulos en cada sección */
@@ -211,6 +215,19 @@ thead th {
 }
 
 
+.home .btn{
+  background-color: #03A9F4;
+  border: solid #03A9F4;
+}
+
+.home .btn:hover{
+  background-color: #008dcc;
+  font-size: 1rem;
+  color: #fff;
+  border: solid #008dcc;
+}
+
+
 .btn{
   background-color: #383838;
   font-size: 1rem;
@@ -306,33 +323,9 @@ footer {
 }
 
 /* Animaciones de AOS */
-[data-aos="fade-up"] {
+[data-aos="fade-in"] {
   opacity: 0;
-  transition: opacity 5s ease;
-}
-
-[data-aos="fade-left"] {
-  opacity: 0;
-  transform: translateX(-50px);
-  transition: opacity 1s ease, transform 1s ease;
-}
-
-[data-aos="fade-right"] {
-  opacity: 0;
-  transform: translateX(50px);
-  transition: opacity 1s ease, transform 1s ease;
-}
-
-[data-aos="zoom-in"] {
-  opacity: 0;
-  transform: scale(0.8);
-  transition: opacity 1s ease, transform 1s ease;
-}
-
-[data-aos="zoom-out"] {
-  opacity: 0;
-  transform: scale(1.2);
-  transition: opacity 1s ease, transform 1s ease;
+  transition: opacity 10s ease;
 }
 
 /* Activación de la animación cuando el elemento es visible */
@@ -347,7 +340,7 @@ footer {
     background-color: rgba(0, 0, 0, .8);
   }
   section h1 {
-    font-size: 3rem; 
+    font-size: 5rem; 
   }
 
   section h2{
@@ -355,7 +348,54 @@ footer {
   }
 
   h2 span{
-    font-size: 3rem;
+    font-size: 2.5rem;
+  }
+
+  section h3{
+    font-size: 1rem;
+  }
+
+  section li{
+    font-size: 0.875rem;
+  }
+
+
+  p {
+    font-size: 0.875rem;
+  }
+
+  .btn {
+    font-size: 0.875rem;
+  }
+
+  section{
+    height: fit-content;
+    padding-top: 5rem;
+  }
+
+  .navbar h1{
+    font-size: 2rem;
+    margin: 0px;
+    font-weight: bolder;
+    letter-spacing: -3.5px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+
+  .navbar{
+    background-color: rgba(0, 0, 0, .8);
+  }
+  section h1 {
+    font-size: 2rem; 
+  }
+
+  section h2{
+    font-size: 1.5rem;
+  }
+
+  h2 span{
+    font-size: 1.5rem;
   }
 
   section h3{
@@ -409,3 +449,4 @@ footer {
   .navbar-nav {
     text-align: center;
   }
+}
