@@ -138,6 +138,7 @@ section p {
   color: #fff;
   border-color: #383838;
   text-align: center;
+  font-size: small;
 }
 
 /* Estilo para los encabezados de la tabla */
