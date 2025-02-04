@@ -630,7 +630,7 @@
 </script>
 
 <script>
-  const words = ["JADITRIP", "CALIFORNIA", "DISNEYLAND", "UNIVERSAL", "NBA", "BIGBEAR"];
+  const words = ["JADITRIP", "CALIFORNIA", "DISNEYLAND", "UNIVERSAL", "KNOTTS", "LAKERS", "SANTAMONICA"];
   let index = 0;
   let letterIndex = 0;
   let isDeleting = false;
@@ -653,7 +653,7 @@
     } else if (isDeleting && letterIndex === 0) {
       isDeleting = false;
       index = (index + 1) % words.length;
-      setTimeout(typeEffect, 100);
+      setTimeout(typeEffect, 300);
     } else {
       setTimeout(typeEffect, speed);
     }
