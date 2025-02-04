@@ -3,7 +3,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  
+}
+
 
 /* Estilos generales para el cuerpo */
 body {
@@ -28,6 +29,34 @@ section {
   justify-content: center; /* Centra horizontalmente el contenido */
   scroll-margin-top: 50px; /* Ajuste de desplazamiento para el navbar */
 }
+
+.home{
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+}
+
+.home-tittle{
+  z-index: 2;
+}
+
+video {
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 10%;
+  pointer-events: none;
+  z-index: 1;
+}
+
 
 
 /* Estilo para el texto de los títulos en cada sección */
@@ -315,11 +344,6 @@ footer {
 
 @media only screen and (max-width: 992px) {
 
-
-  body{
-    margin: 1rem;
-  }
-
   .navbar{
     background-color: rgba(0, 0, 0, .8);
   }
@@ -354,7 +378,7 @@ footer {
 
   section{
     height: fit-content;
-    padding-top: 15rem;
+    padding-top: 5rem;
   }
 
   .navbar h1{
@@ -363,8 +387,6 @@ footer {
     font-weight: bolder;
     letter-spacing: -3.5px;
   }
-}
-
 }
 
 
