@@ -159,7 +159,6 @@ section p {
 /* Estilo para las celdas de la tabla */
 .table td {
   padding: 12px;
-  background-color: transparent;
   border-color: #383838;
   border-width: 2px;
 }
@@ -172,6 +171,10 @@ section p {
 /* Verde */
 .t-otros{
   background-color: rgba(3, 244, 11, .2)!important;
+}
+
+.t-nye{
+  background-color: rgba(0, 0, 255, .2)!important;
 }
 
 /* Morado */
